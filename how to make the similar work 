@@ -1,0 +1,13 @@
+1) Run : npm init
+2) Enter! Enter! Enter!
+3) Go to package.json and change   "main": "index.js" to "main" : "app.js"
+4) Install express: Run "npm install express"
+5) Install mongodb: Run "npm install mongodb"
+6) Install mongoose: Run "npm install mongoose"
+7) Install nodemon: Run "sudo npm install -g nodemon --save-dev"
+8) Go to package.json and add "start":"nodemon app.js": like this
+    "scripts": {
+                  "start": "nodemon app.js",
+                  "test": "echo \"Error: no test specified\" && exit 1"
+                },
+9) Create app.js in the root folder, enjoy your work
